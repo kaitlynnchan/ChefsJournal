@@ -2,6 +2,11 @@ package com.projects.chefsjournal.model;
 
 import java.util.ArrayList;
 
+/**
+ * Demonstrates information about a recipe. Variables
+ * includes name, prep time, yeilds, ingredients,
+ * and instructions.
+ */
 public class Recipe {
     private String name;
     private String prepTime;
