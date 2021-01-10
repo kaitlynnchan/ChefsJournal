@@ -6,6 +6,9 @@ import android.os.Bundle;
 
 import com.projects.chefsjournal.R;
 
+/**
+ * Allows users to input information about a recipe.
+ */
 public class RecipeActivity extends AppCompatActivity {
 
     @Override
