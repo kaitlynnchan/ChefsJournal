@@ -2,13 +2,13 @@ package com.projects.chefsjournal.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.projects.chefsjournal.R;
@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Implement adding recipe
+                Intent intent = new Intent(MainActivity.this, RecipeActivity.class);
+                startActivity(intent);
             }
         });
 

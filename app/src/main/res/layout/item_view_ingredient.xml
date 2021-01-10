@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_ingredients2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_toEndOf="@+id/editText_amount"
+        android:layout_toRightOf="@+id/editText_amount"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editText_amount"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+</RelativeLayout>
