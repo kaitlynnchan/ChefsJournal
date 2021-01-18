@@ -7,16 +7,17 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editText_ingredients2"
+        android:id="@+id/editText_ingredients"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginLeft="62dp"
-        android:layout_toEndOf="@+id/editText_amount"
-        android:layout_toRightOf="@+id/editText_amount"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/spn_units"
+        android:layout_toRightOf="@+id/spn_units"
+        android:hint="Ingredient"
         android:inputType="textPersonName"
-        android:text="Name"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="0dp" />
 
@@ -26,4 +27,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spn_units"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText_amount"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/editText_amount"
+        android:layout_toRightOf="@+id/editText_amount" />
 </RelativeLayout>
