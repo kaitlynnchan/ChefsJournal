@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ChefsJournal</string>
+    <string-array name="units_array">
+        <item>cups</item>
+        <item>g</item>
+        <item>ml</item>
+        <item>oz</item>
+        <item>tsp</item>
+        <item>Tbsp</item>
+    </string-array>
 </resources>

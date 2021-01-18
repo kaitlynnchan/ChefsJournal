@@ -1,20 +1,24 @@
 package com.projects.chefsjournal.model;
 
+/**
+ * Demonstrates information about a ingredient. Variables
+ * includes name and amount.
+ */
 public class Ingredient {
-    private String ingredient;
+    private String name;
     private String amount;
 
-    public Ingredient(String ingredient, String amount) {
-        this.ingredient = ingredient;
+    public Ingredient(String name, String amount) {
+        this.name = name;
         this.amount = amount;
     }
 
-    public String getIngredient() {
-        return ingredient;
+    public String getName() {
+        return name;
     }
 
-    public void setIngredient(String ingredient) {
-        this.ingredient = ingredient;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAmount() {
