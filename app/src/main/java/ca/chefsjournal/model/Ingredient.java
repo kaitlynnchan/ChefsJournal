@@ -1,4 +1,4 @@
-package com.projects.chefsjournal.model;
+package ca.chefsjournal.model;
 
 /**
  * Demonstrates information about a ingredient. Variables

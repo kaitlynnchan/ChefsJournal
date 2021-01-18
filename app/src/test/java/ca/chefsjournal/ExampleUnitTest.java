@@ -1,4 +1,4 @@
-package com.projects.chefsjournal;
+package ca.chefsjournal;
 
 import org.junit.Test;
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context="com.projects.chefsjournal.ui.NameDialog">
+    tools:context=".ui.NameDialog">
 
     <EditText
         android:id="@+id/edtTxt_name"

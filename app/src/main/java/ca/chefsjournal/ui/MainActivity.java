@@ -1,4 +1,4 @@
-package com.projects.chefsjournal.ui;
+package ca.chefsjournal.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,9 +18,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.projects.chefsjournal.R;
-import com.projects.chefsjournal.model.Folder;
-import com.projects.chefsjournal.model.Recipe;
+import ca.chefsjournal.R;
+import ca.chefsjournal.model.Folder;
+import ca.chefsjournal.model.Recipe;
 
 import java.util.ArrayList;
 

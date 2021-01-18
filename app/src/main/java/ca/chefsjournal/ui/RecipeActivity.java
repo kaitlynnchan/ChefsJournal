@@ -1,4 +1,4 @@
-package com.projects.chefsjournal.ui;
+package ca.chefsjournal.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-import com.projects.chefsjournal.R;
+import ca.chefsjournal.R;
 
 /**
  * Allows users to input information about a recipe.
