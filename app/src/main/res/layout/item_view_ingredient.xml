@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/editText_ingredients"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="22dp"
@@ -30,7 +30,7 @@
 
     <Spinner
         android:id="@+id/spn_units"
-        android:layout_width="60dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/editText_amount"
         android:layout_marginStart="12dp"
